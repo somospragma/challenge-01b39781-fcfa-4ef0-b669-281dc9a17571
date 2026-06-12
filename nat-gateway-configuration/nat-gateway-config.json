@@ -1,0 +1,6 @@
+{
+  "natGatewayId": "nat-1234567890abcdef0",
+  "publicSubnetId": "subnet-1234567890abcdef0",
+  "privateSubnetId": "subnet-0987654321fedcba0",
+  "routeTableId": "rtb-1234567890abcdef0"
+}

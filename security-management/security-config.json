@@ -1,0 +1,19 @@
+{
+  "securityGroupId": "sg-1234567890abcdef0",
+  "ingressRules": [
+    {
+      "cidr": "0.0.0.0/0",
+      "fromPort": 22,
+      "toPort": 22,
+      "ipProtocol": "tcp"
+    }
+  ],
+  "egressRules": [
+    {
+      "cidr": "0.0.0.0/0",
+      "fromPort": 0,
+      "toPort": 65535,
+      "ipProtocol": "-1"
+    }
+  ]
+}
